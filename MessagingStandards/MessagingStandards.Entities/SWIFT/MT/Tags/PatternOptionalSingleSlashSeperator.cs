@@ -22,7 +22,7 @@ namespace MessagingStandards.Entities.SWIFT.MT.Tags
 
             else
             {
-                this.Value = resultText.ToEndOfString(this.TagName + ":" + "/");
+                this.Value = resultText.ToEndOfString(this.TagName + ":");
             }
 
             return this;

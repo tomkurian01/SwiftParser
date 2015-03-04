@@ -15,7 +15,6 @@ namespace MessagingStandards.Tests
     {
         string samplemessagelocation = @"C:\Personal\Parser\Sample_548_Updated.txt";
         string samplemessagelocationlongstring = @"C:\Personal\Parser\Sample_548_LongString.txt";
-        string mockedSwiftMessage = @"C:\Personal\Parser\MockSwiftTest.txt";
         
 
         [TestMethod]

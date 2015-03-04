@@ -13,7 +13,7 @@ namespace MessagingStandards.Tests
     public class CheckTags1Series
     {
         string sample103 = @"C:\Personal\Parser\Sample_103.txt";
-        string sample101 = @"C:\Personal\Parser\BEL_UBSCH10.fin";
+        string sample101 = @"C:\Personal\Parser\TEST_CH10.fin";
 
         [TestMethod]
         public void Check_Tag23B()

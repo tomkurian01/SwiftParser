@@ -17,8 +17,7 @@ namespace MessagingStandards.Tests
         public void Check_Tag33S()
         {
             string str;
-            string value = "";
-            string qualifier = "";
+             string qualifier = "";
 
             using (StreamReader sr = File.OpenText(mockedSwiftMessage))
             {
@@ -41,34 +40,6 @@ namespace MessagingStandards.Tests
             Assert.AreEqual("GBP", qualifier);
         }
 
-        [TestMethod]
-        public void Check_Tag90F()
-        {
-            string str;
-            string qualifier = "";
-            string value = "";
 
-            using (StreamReader sr = File.OpenText(mockedSwiftMessage))
-            {
-                str = sr.ReadToEnd();
-            }
-
-
-            SwiftMessage message = new SwiftMessage();
-            message.ParseSwiftMessage(str.Trim());
-
-            foreach (var block in message.Block4)
-            {
-                if (block.TagName == "90F")
-                {
-                    qualifier = block.Code;
-                    value = block.Value;
-                }
-            }
-
-
-            Assert.AreEqual("USD", qualifier);
-            Assert.AreEqual("100000", value);
-        }
     }
 }
