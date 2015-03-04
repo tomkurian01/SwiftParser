@@ -67,6 +67,23 @@
       <Name>MessagingStandards</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="MockSwiftTest.txt" />
+    <Content Include="Sample202.txt" />
+    <Content Include="Sample300.txt" />
+    <Content Include="Sample_103.txt" />
+    <Content Include="Sample_515.txt" />
+    <Content Include="Sample_515_90B.txt" />
+    <Content Include="Sample_548.txt" />
+    <Content Include="Sample_548_22F.txt" />
+    <Content Include="Sample_548_23G.txt" />
+    <Content Include="Sample_548_LongString.txt" />
+    <Content Include="Sample_548_negative.txt" />
+    <Content Include="Sample_548_Updated.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TEST_CH10.fin" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
