@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingStandards", "MessagingStandards\MessagingStandards.csproj", "{9ED1A868-1F30-49F6-B0FA-01611191FD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingStandards.Entities", "MessagingStandards.Entities\MessagingStandards.Entities.csproj", "{4B33ACB8-AF21-4664-AB97-FE3880059318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ED1A868-1F30-49F6-B0FA-01611191FD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED1A868-1F30-49F6-B0FA-01611191FD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED1A868-1F30-49F6-B0FA-01611191FD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED1A868-1F30-49F6-B0FA-01611191FD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B33ACB8-AF21-4664-AB97-FE3880059318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B33ACB8-AF21-4664-AB97-FE3880059318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B33ACB8-AF21-4664-AB97-FE3880059318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B33ACB8-AF21-4664-AB97-FE3880059318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
