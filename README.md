@@ -3,19 +3,22 @@ C# Library to parse the SWIFT MT Financial Messages.
 
 There are a number of tests that can be used to understand the usage of the library.
 
-What's Available:
+##What's Available:
 
-A great majority of the popular tags in a swift message are available (65%). I'll be working on the rest shortly.
-Only parsing a swift message is available future versions will have building the message as well
+1. A great majority of the popular tags in a swift message are available (65%). I'll be working on the rest shortly.
+2. Parsing a Swift message into a type called ITag
+3. A Number of tests are available with sample messages. (You just have to change the path on the messages once you download)
 
-Usage:
+## Usage:
 
-Grab a file and place it in a variable and then parse the message as below.
+### Grab any file and then send it to a stream.
 
 using (StreamReader sr = File.OpenText(FileName))
 {
   str = sr.ReadToEnd();
 }
+
+### Then parse the message
 
 SwiftMessage message = new SwiftMessage();
 message.ParseSwiftMessage(str.Trim());
