@@ -6,7 +6,7 @@ There are a number of tests that can be used to understand the usage of the libr
 ##What's Available:
 
 1. A great majority of the popular tags in a swift message are available (65%). I'll be working on the rest shortly.
-2. Parsing a Swift message into a type called ITag
+2. Parsing a Swift message tags into a collection of type ITag.
 3. A Number of tests are available with sample messages. (You just have to change the path on the messages once you download)
 
 ## Usage:
