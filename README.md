@@ -25,3 +25,6 @@ message.ParseSwiftMessage(str.Trim());
 
 Now you have an object called message seperated in blocks
 
+## Questions
+
+If you have questions please feel free to reach out to tomkurian01@gmail.com
